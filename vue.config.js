@@ -1,3 +1,4 @@
 module.exports = {
-   publicPath: '/vue_vuelidate/'
+   baseUrl: process.env.NODE_ENV === 'production' ?
+      '/vue_vuelidate/' : '/'
 }
